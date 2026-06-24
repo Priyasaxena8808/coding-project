@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML LIST</title>
+</head>
+<body>
+    <div>
+ <ol>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+    <li>Python</li>
+    <li>PHP</li>
+</ol>
+<ul type="square">
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+    <li>Python</li>
+    <li>PHP</li>
+</ul> 
+<!-- lets create a table     -->
+<table border="2" width="100%"height="100%"align="left"bgcolor="lightblue">
+    <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Age</th>
+    </tr>
+    <tr>
+        <td>John</td>
+        <td>Doe</td>    
+        <td>30</td>
+    </tr>
+    <tr>
+        <td>Mary</td>
+        <td>Moe</td>
+        <td>25</td>
+    </tr>
+    <tr>
+        <td>July</td>
+        <td>Dooley</td>
+        <td>35</td>
+    </tr>
+</table>
+<!-- lets create 2nd a table -->
+ <table border="2" width="100%"height="100%"align="left"bgcolor="lightpink">
+    <tr>
+        <th colspan="3">Personal Information</th>
+    </tr>
+    <tr>
+        <td>John</td>
+        <td>Doe</td>    
+        <td>30</td>
+    </tr>
+    <tr>
+        <td>Mary</td>
+        <td>Moe</td>
+        <td>25</td>
+    </tr>
+    <tr>
+        <td>July</td>
+        <td>Dooley</td>
+        <td>35</td>
+    </tr>
+</table>
+<br>
+<!-- lets create a form -->
+ <h1>HTML Form</h1>
+<form action="practiceS2.html" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Enter your email"><br><br>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" placeholder="Enter your    password"><br><br>
+<label for="gender">Gender:</label>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label>  
+    <input type="checkbox" id="other" name="gender" value="other">
+    <label for="other">Other</label><br><br>
+    <textarea id="message" name="message" rows="4" cols="50" placeholder="Enter your message"></textarea><br><br>
+    <select id="country" name="country">
+        <option value="usa">USA</option>
+        <option value="canada">Canada</option>
+        <option value="uk">India</option>
+        <option value="australia">Australia</option>
+    </select><br><br>
+    <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
